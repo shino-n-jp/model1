@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*-- common --*/
+@use "_common" as common;
+
+#footer {
+  background-color: #e8e8e8;
+  padding: 60px 0 20px 0;
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  .inner > li {
+    width: 25%;
+  }
+  .inner .title {
+    font-weight: bold;
+  }
+  .inner .menu {
+    padding: 10px 0 0 10px;
+  }
+  .copylight {
+    font-size: 0.625rem;
+    text-align: center;
+  }
+}

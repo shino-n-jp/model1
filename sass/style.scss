@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* 別のscss読み込み */
+@use "_index.scss";
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
